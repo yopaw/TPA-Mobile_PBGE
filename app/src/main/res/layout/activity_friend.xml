@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.FriendActivity">
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#ffd700" />-->
+    <EditText
+        android:id="@+id/searchFriendEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<!--    <Button-->
+<!--        android:id="@+id/searchFriendButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Search Friend"/>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Friends"
+                android:textColor="#fff"
+                android:background="#ff7F50"
+                android:textSize="24sp" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/friendListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Favorites"
+                android:textColor="#fff"
+                android:background="#ff7F50"
+                android:textSize="24sp" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/favoriteListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blocks"
+                android:textColor="#fff"
+                android:background="#ff7F50"
+                android:textSize="24sp" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/blockListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

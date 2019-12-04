@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/friendOnly"
+        app:showAsAction="ifRoom"
+        android:title="Friend Only"
+        android:icon="@drawable/ic_person_black_24dp"/>
+    <item
+        android:id="@+id/likeOnly"
+        app:showAsAction="ifRoom"
+        android:title="Like Only"
+        android:icon="@drawable/ic_thumb_up_black_24dp"/>
+
+</menu>

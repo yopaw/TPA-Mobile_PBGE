@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "906004985333",
+    "firebase_url": "https://edge-9c1cd.firebaseio.com",
+    "project_id": "edge-9c1cd",
+    "storage_bucket": "edge-9c1cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906004985333:android:f99fabeb81461479fa1cbc",
+        "android_client_info": {
+          "package_name": "com.example.edge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906004985333-hknjsjfremtht73raae44m9pnvgudpnd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.edge",
+            "certificate_hash": "fdc5e28e99a69df6a86920fc8a44397a77388aa3"
+          }
+        },
+        {
+          "client_id": "906004985333-uvnhkkvcgh5u80coamuvrftekdqld5du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYfib5m0V1RGaPZUHkRZQNXDXAPvnfaJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906004985333-uvnhkkvcgh5u80coamuvrftekdqld5du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
